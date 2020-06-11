@@ -26,6 +26,6 @@ $fa-font-path: "@fortawesome/fontawesome-free/webfonts";
   display: contents;
 
   input {
-    border: 2px solid red;
+    @extend .is-invalid;
   }
 }
